@@ -116,8 +116,6 @@ fun main() {
                     }
                     3 -> {
                         // 3. look a product price by it's name
-                        print("Please write the name of the product that you are looking for and we will let you know the price of it:")
-
                         print("\n")
                         print("These are the products that we currently have: ")
                         print("\n")
@@ -126,6 +124,8 @@ fun main() {
                             println("$p. $product")
                             p++
                         }
+                        print("\n")
+                        print("Please write the name of the product that you are looking for and we will let you know the price of it:")
 
                         var productName = readLine()?.toLowerCase()
                         if (myListOneOfProducts.contains(productName)) {
@@ -141,19 +141,21 @@ fun main() {
                     4 -> {
                         //4. look a product name by it's price
                         print("\n")
-                        print("If you are looking for a product, these are our prices. Write the price and find the product for that price: ")
+                        print("If you are looking for a product, these are our prices: ")
                         print("\n")
                         var l = 1
                         for (price in myListOfPrices) {
                             println("$l. $price")
                             l++
                         }
-
+                        print("\n")
+                        print("Please write the price and we will show you the product: ")
 
                         var myPriceForAProduct = readLine()?.toLowerCase()?.toDouble()
                         if (myListOfPrices.contains(myPriceForAProduct)) {
                             var indexPrice = myListOfPrices.indexOf(myPriceForAProduct)
-                            print("You wrote the price $myPriceForAProduct. This is equal to ${myListOneOfProducts[indexPrice]}")
+                            print("\n")
+                            print("You wrote the price $$myPriceForAProduct this is equal to ${myListOneOfProducts[indexPrice]}")
                             print("\n")
                         } else {
                             print("None of our products have that price. Try again")

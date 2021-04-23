@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="482d51b8-27e3-4a9f-b785-e1a2b0d38005" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HowIMetTheCode2/firstStepsMyProject/MyMenuVersion2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HowIMetTheCode2/firstStepsMyProject/MyMenuVersion2Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/firstStepsMyProject/MyMenuVersion2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstStepsMyProject/MyMenuVersion2.kt" afterDir="false" />
