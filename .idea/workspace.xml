@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="482d51b8-27e3-4a9f-b785-e1a2b0d38005" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sealedclasses/NotSealedClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sealedclasses/Options.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HowIMetTheCode2/META-INF/HowIMetTheCode2.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HowIMetTheCode2/META-INF/HowIMetTheCode2.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HowIMetTheCode2/firstStepsMyProject/MyMenuVersion2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HowIMetTheCode2/firstStepsMyProject/MyMenuVersion2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firstStepsMyProject/MyMenuVersion2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstStepsMyProject/MyMenuVersion2.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.firstStepsMyProject.MyMenuVersion2Kt">
+  <component name="RunManager" selected="Kotlin.sealedclasses.NotSealedClassKt">
     <configuration name="firstStepsMyProject.LookProductByKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="HowIMetTheCode2" />
       <option name="VM_PARAMETERS" />
@@ -53,19 +55,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="firstStepsMyProject.LookProductByKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="firstStepsMyProject.MakingListsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="HowIMetTheCode2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="firstStepsMyProject.MakingListsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,14 +86,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="whenExpression.MyGroceryChonKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="sealedclasses.NotSealedClassKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="HowIMetTheCode2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="whenExpression.MyGroceryChonKt" />
+      <option name="MAIN_CLASS_NAME" value="sealedclasses.NotSealedClassKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sealedclasses.OptionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="HowIMetTheCode2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="sealedclasses.OptionsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.sealedclasses.NotSealedClassKt" />
+        <item itemvalue="Kotlin.sealedclasses.OptionsKt" />
         <item itemvalue="Kotlin.firstStepsMyProject.MyMenuVersion2Kt" />
         <item itemvalue="Kotlin.firstStepsMyProject.PiecesOfCodeKt" />
         <item itemvalue="Kotlin.firstStepsMyProject.LookProductByKt" />
-        <item itemvalue="Kotlin.firstStepsMyProject.MakingListsKt" />
-        <item itemvalue="Kotlin.whenExpression.MyGroceryChonKt" />
       </list>
     </recent_temporary>
   </component>
